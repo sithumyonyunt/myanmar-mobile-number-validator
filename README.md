@@ -5,7 +5,7 @@ refrence = https://www.ptd.gov.mm/LicenseslistDetail.aspx?id=P3KMgPdor32H5hDW/BF
   - Validate Myanmar Mobile Phone number and return it's Infos
 
 ## Installing
-  ```bash $npm install myanmar-mobile-validator```
+  ```npm install @yanaguta/myanmar-mobile-validator```
 
 Once the package is installed, you can import the libary using 'import' or 'require' approach:
 
