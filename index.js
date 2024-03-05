@@ -1527,7 +1527,8 @@ function Validator(props) {
   if (info)
     return {
       number: mobile,
-      ...info,
+      operator_code: info.operator_code,
+      operator_name: info.operator_name,
     };
 
   // find in prefix 3
@@ -1538,7 +1539,8 @@ function Validator(props) {
   if (info)
     return {
       number: mobile,
-      ...info,
+      operator_code: info.operator_code,
+      operator_name: info.operator_name,
     };
 
   // find in prefix 4
@@ -1549,7 +1551,8 @@ function Validator(props) {
   return info
     ? {
         number: mobile,
-        ...info,
+        operator_code: info.operator_code,
+        operator_name: info.operator_name,
       }
     : null;
 }
