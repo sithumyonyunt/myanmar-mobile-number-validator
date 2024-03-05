@@ -1,0 +1,11 @@
+{
+  "name": "myanmar-mobile-validator",
+  "version": "0.0.1",
+  "description": "validate myanmar mobile phone number and get it's info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yanaguta",
+  "license": "ISC"
+}
