@@ -1,6 +1,6 @@
 {
   "name": "myanmar-mobile-validator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "validate myanmar mobile phone number and get it's info",
   "main": "index.js",
   "scripts": {
