@@ -29,5 +29,17 @@ if (!info1 || !info2) {
 }
 ```
 
+## Avilable Formats
++95 09 123 123 123
+95-09-123-123-132
+9509123123123
+959123123123
+09 123 123 123
+09 123123123
+09123123123
+9 123123132
+9123123123
+123123123
+
 ## Refrence
 https://www.ptd.gov.mm/LicenseslistDetail.aspx?id=P3KMgPdor32H5hDW/BFdTw==

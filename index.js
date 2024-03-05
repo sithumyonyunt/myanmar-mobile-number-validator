@@ -1504,6 +1504,9 @@ function Validator(props) {
   // remove country code
   let mobile = `${number}`.startsWith("95") ? `${number}`.slice(2) : number;
 
+  // after remove country code number length must be 11 ( with area code 09 ) or 9
+  if(mobile.length < 9 || mobile.length > 11) return null;
+
   // remove area code if type 09
   if (mobile.startsWith("09")) {
     mobile = `${mobile}`.slice(2);
